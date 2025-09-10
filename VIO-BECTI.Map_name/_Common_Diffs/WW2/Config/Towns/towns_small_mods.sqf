@@ -186,8 +186,8 @@ if(CTI_US_SIDE == (_side) call CTI_CO_FNC_GetSideID) then {
 		};
 	};
 };
-if (isClass(configFile >> "CfgVehicles" >> "SOV_BT_BT7A")) then {
-	if(CTI_SOV_SIDE == (_side) call CTI_CO_FNC_GetSideID) then {
+if(CTI_SOV_SIDE == (_side) call CTI_CO_FNC_GetSideID) then {
+	if (isClass(configFile >> "CfgVehicles" >> "SOV_BT_BT7A")) then {
 		_matrix_full = [_side, CTI_UPGRADE_HEAVY] call CTI_CO_FNC_GetTechmatrix;
 		_matrix_nation = [_side, CTI_UPGRADE_HEAVY, CTI_SOV_ID, CTI_BT_ID] call CTI_CO_FNC_GetTechmatrix;
 
