@@ -1,5 +1,13 @@
-[Added] Message to Enemy if Arty shoots (Arty computer disable this)
-[Added] Option to enable Arma3 revive
-[Fixed] wracks disappears afer some seconds
-[Fixed] an error occures with town defenses
-[Fixed] an error with missing naval upgrades
+(All)
+[Fixed] AI Air take towns behavior (now stay by town)
+[Fixed] Update_Commanter@UpdateTeams error
+[Changed] Towns now man Player bese static in 500m range
+(CW)
+[Added] Supporting some drone mods now
+[Added] Ammoboxes to the placable objects
+[Changed] RPG7 ammo got new Prices for better rounds but stay in T0
+[Changed] 9k79 Launchers only active if arty balance disabled (-1)
+[Fixed] rhs some grips for weapons missing
+[Fixed] rhs chdkz(GUER) only spawn commander in towns
+
+

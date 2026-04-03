@@ -1,0 +1,22 @@
+if (CTI_Log_Level >= CTI_Log_Information) then {
+["DEBUG_TEST", "FILE: Server\Functions\FSM\Functions_FSM_UpdateAI.sqf", Format ["", ]] Call CTI_CO_FNC_Log;
+};
+
+respawn of AI group-leaders:
+_group getVariable "cti_nextrespawn"
+
+
+AI leader respawn:
+_leader setPos ([[_side, _position] call CTI_FSM_UpdateAI_GetRespawnLocation, 8, 30] call CTI_CO_FNC_GetRandomPosition);
+
+
+AI order pos:
+_local_goto = _group getVariable "cti_order_pos";
+
+_assigned_target = [leader _group, _side] call CTI_CO_FNC_GetClosestEnemyTown;
+_group setVariable ["cti_order_pos", _assigned_target, true];
+_closest = [_pos_patrol, _bases] call CTI_CO_FNC_GetClosestEntity;
+_group setVariable ["cti_order_pos", _closest, true];
+
+
+

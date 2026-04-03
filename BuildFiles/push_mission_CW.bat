@@ -1,8 +1,8 @@
 @echo off
 title VIO-BECTI-CW.Altis Mission gets created
 
-set "gitpath=F:\GitReps\Arma3_CTI_Work"
-set "buildpath=F:\GitReps\Arma3_CTI_ColdWar"
+set "gitpath=D:\GitRep\Arma3_CTI_Work"
+set "buildpath=D:\GitRep\Arma3_CTI_ColdWar"
 
 set "mapname=Map_name"
 set "missionfolder=CW-BECTI.%mapname%"
