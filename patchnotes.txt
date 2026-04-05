@@ -2,6 +2,7 @@
 [Fixed] AI Air take towns behavior (now stay by town)
 [Fixed] Update_Commanter@UpdateTeams error
 [Changed] Towns now man Player bese static in 500m range
+[Changed] DMG marker calc for buildings
 (CW)
 [Added] Supporting some drone mods now
 [Added] Ammoboxes to the placable objects
@@ -9,5 +10,5 @@
 [Changed] 9k79 Launchers only active if arty balance disabled (-1)
 [Fixed] rhs some grips for weapons missing
 [Fixed] rhs chdkz(GUER) only spawn commander in towns
-
+[Fixed] no gear for SOG NVA
 

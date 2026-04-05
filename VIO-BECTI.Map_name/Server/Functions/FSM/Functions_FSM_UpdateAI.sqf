@@ -376,7 +376,7 @@ CTI_FSM_UpdateAI_Order_TakeTown = {
 		
 		//if the AI sit in a plane it moves only once to the town and move to default pos, we need to told them again until job is done
 		if (((vehicle leader _group) isKindOf "Air") && ((leader _group) distance2D _town) > 2000 && _side_owned == false && _process == true) then {
-			_group doMove ([getPos _town, 5, 40] call CTI_CO_FNC_GetRandomPosition);
+			_group move ([getPos _town, 5, 40] call CTI_CO_FNC_GetRandomPosition);
 		};
 
 		sleep 5;
