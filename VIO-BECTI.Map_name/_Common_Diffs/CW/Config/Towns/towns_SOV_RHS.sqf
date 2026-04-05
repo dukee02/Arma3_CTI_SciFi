@@ -59,22 +59,22 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		case 2: {//desert camo active
 			INFANTRY = [[format["%1rhs_vdv_des_sergeant", _sid],1],[format["%1rhs_vdv_des_medic", _sid],1],[format["%1rhs_vdv_des_rifleman", _sid],1],[format["%1rhs_vdv_des_rifleman_lite", _sid],1],[format["%1rhs_vdv_des_rifleman_lite", _sid],1],[format["%1rhs_vdv_des_rifleman_lite", _sid],1]];
 			INFANTRY_MG = [[format["%1rhs_vdv_des_sergeant", _sid],1],[format["%1rhs_vdv_des_medic", _sid],1],[format["%1rhs_vdv_des_rifleman", _sid],1],[format["%1rhs_vdv_des_grenadier_rpg", _sid],1],[format["%1rhs_vdv_des_machinegunner_assistant", _sid],1],[format["%1rhs_vdv_des_machinegunner", _sid],1]];
-			INFANTRY_AT = [[format["%1rhs_vdv_des_sergeant", _sid],1],[format["%1rhs_vdv_des_medic", _sid],1],[format["%1rhs_vdv_des_rifleman", _sid],1],[format["%1rhs_vdv_des_LAT", _sid],1],[format["%1rhs_vdv_des_at", _sid],1],[format["%1rhs_vdv_des_at", _sid],1]];
+			INFANTRY_AT = [[format["%1rhs_vdv_des_sergeant", _sid],1],[format["%1rhs_vdv_des_medic", _sid],1],[format["%1rhs_vdv_des_rifleman", _sid],1],[format["%1rhs_vdv_des_at", _sid],1],[format["%1rhs_vdv_des_at", _sid],1],[format["%1rhs_vdv_des_at", _sid],1]];
 		};
 		case 3: {//jungle camo active
 			INFANTRY = [[format["%1rhs_vdv_sergeant", _sid],1],[format["%1rhs_vdv_medic", _sid],1],[format["%1rhs_vdv_rifleman", _sid],1],[format["%1rhs_vdv_rifleman_lite", _sid],1],[format["%1rhs_vdv_rifleman_lite", _sid],1],[format["%1rhs_vdv_rifleman_lite", _sid],1]];
 			INFANTRY_MG = [[format["%1rhs_vdv_sergeant", _sid],1],[format["%1rhs_vdv_medic", _sid],1],[format["%1rhs_vdv_rifleman", _sid],1],[format["%1rhs_vdv_grenadier_rpg", _sid],1],[format["%1rhs_vdv_machinegunner_assistant", _sid],1],[format["%1rhs_vdv_machinegunner", _sid],1]];
-			INFANTRY_AT = [[format["%1rhs_vdv_sergeant", _sid],1],[format["%1rhs_vdv_medic", _sid],1],[format["%1rhs_vdv_rifleman", _sid],1],[format["%1rhs_vdv_LAT", _sid],1],[format["%1rhs_vdv_at", _sid],1],[format["%1rhs_vdv_at", _sid],1]];
+			INFANTRY_AT = [[format["%1rhs_vdv_sergeant", _sid],1],[format["%1rhs_vdv_medic", _sid],1],[format["%1rhs_vdv_rifleman", _sid],1],[format["%1rhs_vdv_at", _sid],1],[format["%1rhs_vdv_at", _sid],1],[format["%1rhs_vdv_at", _sid],1]];
 		};
 		case 4: {//urban camo active
 		INFANTRY = [[format["%1rhs_vdv_mflora_sergeant", _sid],1],[format["%1rhs_vdv_mflora_medic", _sid],1],[format["%1rhs_vdv_mflora_rifleman", _sid],1],[format["%1rhs_vdv_mflora_rifleman_lite", _sid],1],[format["%1rhs_vdv_mflora_rifleman_lite", _sid],1],[format["%1rhs_vdv_mflora_rifleman_lite", _sid],1]];
 			INFANTRY_MG = [[format["%1rhs_vdv_mflora_sergeant", _sid],1],[format["%1rhs_vdv_mflora_medic", _sid],1],[format["%1rhs_vdv_mflora_rifleman", _sid],1],[format["%1rhs_vdv_mflora_grenadier_rpg", _sid],1],[format["%1rhs_vdv_mflora_machinegunner_assistant", _sid],1],[format["%1rhs_vdv_mflora_machinegunner", _sid],1]];
-			INFANTRY_AT = [[format["%1rhs_vdv_mflora_sergeant", _sid],1],[format["%1rhs_vdv_mflora_medic", _sid],1],[format["%1rhs_vdv_mflora_rifleman", _sid],1],[format["%1rhs_vdv_mflora_LAT", _sid],1],[format["%1rhs_vdv_mflora_at", _sid],1],[format["%1rhs_vdv_mflora_at", _sid],1]];
+			INFANTRY_AT = [[format["%1rhs_vdv_mflora_sergeant", _sid],1],[format["%1rhs_vdv_mflora_medic", _sid],1],[format["%1rhs_vdv_mflora_rifleman", _sid],1],[format["%1rhs_vdv_mflora_at", _sid],1],[format["%1rhs_vdv_mflora_at", _sid],1],[format["%1rhs_vdv_mflora_at", _sid],1]];
 		};
 		default {//main camo active
 			INFANTRY = [[format["%1rhs_vdv_flora_sergeant", _sid],1],[format["%1rhs_vdv_flora_medic", _sid],1],[format["%1rhs_vdv_flora_rifleman", _sid],1],[format["%1rhs_vdv_flora_rifleman_lite", _sid],1],[format["%1rhs_vdv_flora_rifleman_lite", _sid],1],[format["%1rhs_vdv_flora_rifleman_lite", _sid],1]];
 			INFANTRY_MG = [[format["%1rhs_vdv_flora_sergeant", _sid],1],[format["%1rhs_vdv_flora_medic", _sid],1],[format["%1rhs_vdv_flora_rifleman", _sid],1],[format["%1rhs_vdv_flora_grenadier_rpg", _sid],1],[format["%1rhs_vdv_flora_machinegunner_assistant", _sid],1],[format["%1rhs_vdv_flora_machinegunner", _sid],1]];
-			INFANTRY_AT = [[format["%1rhs_vdv_flora_sergeant", _sid],1],[format["%1rhs_vdv_flora_medic", _sid],1],[format["%1rhs_vdv_flora_rifleman", _sid],1],[format["%1rhs_vdv_flora_LAT", _sid],1],[format["%1rhs_vdv_flora_at", _sid],1],[format["%1rhs_vdv_flora_at", _sid],1]];
+			INFANTRY_AT = [[format["%1rhs_vdv_flora_sergeant", _sid],1],[format["%1rhs_vdv_flora_medic", _sid],1],[format["%1rhs_vdv_flora_rifleman", _sid],1],[format["%1rhs_vdv_flora_at", _sid],1],[format["%1rhs_vdv_flora_at", _sid],1],[format["%1rhs_vdv_flora_at", _sid],1]];
 		};
 	};
 };

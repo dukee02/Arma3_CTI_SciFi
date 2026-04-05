@@ -102,9 +102,7 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_des_junior_sergeant", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_des_machinegunner", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_des_machinegunner_assistant", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_des_aa", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_des_arifleman", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_des_LAT", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION == 3 || CTI_CAMO_ACTIVATION == 7) then {		//jungle camo active
 		inf_to_add = [[format["%1rhs_vdv_efreitor", _sid], 1, 40]];
@@ -112,10 +110,8 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_junior_sergeant", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_machinegunner", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_machinegunner_assistant", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_aa", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_arifleman", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_rifleman_alt", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_LAT", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		inf_to_add = [[format["%1rhs_vdv_mflora_efreitor", _sid], 1, 40]];
@@ -123,8 +119,6 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_junior_sergeant", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_machinegunner", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_machinegunner_assistant", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_mflora_aa", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_mflora_LAT", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION < 2 || CTI_CAMO_ACTIVATION > 4) then {		//main camo active
 		inf_to_add = [[format["%1rhs_vdv_flora_efreitor", _sid], 1, 40]];
@@ -132,8 +126,6 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_flora_junior_sergeant", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_flora_machinegunner", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_flora_machinegunner_assistant", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_flora_aa", _sid], 1, 40];
-		inf_to_add pushBack [format["%1rhs_vdv_flora_LAT", _sid], 1, 40];
 	};	
 	units_infantry append inf_to_add;
 	if(CTI_FACTORY_LEVEL_PRESET > _level) then {infantry_auto append inf_to_add;};
@@ -157,6 +149,8 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_des_officer", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_des_grenadier", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_des_RShG2", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_des_LAT", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_des_aa", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION == 3 || CTI_CAMO_ACTIVATION == 7) then {		//jungle camo active
 		inf_to_add = [[format["%1rhs_vdv_marksman_asval", _sid], 1, 20]];
@@ -165,18 +159,24 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1rhs_vdv_grenadier", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_grenadier_alt", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_RShG2", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_LAT", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_aa", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		inf_to_add = [[format["%1rhs_vdv_mflora_marksman", _sid], 1, 20]];
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_officer", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_grenadier", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_mflora_RShG2", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_mflora_LAT", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_mflora_aa", _sid], 1, 40];
 	};
 	if(CTI_CAMO_ACTIVATION < 2 || CTI_CAMO_ACTIVATION > 4) then {		//main camo active
 		inf_to_add = [[format["%1rhs_vdv_flora_marksman", _sid], 1, 20]];
 		inf_to_add pushBack [format["%1rhs_vdv_flora_officer", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_flora_grenadier", _sid], 1, 40];
 		inf_to_add pushBack [format["%1rhs_vdv_flora_RShG2", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_flora_LAT", _sid], 1, 40];
+		inf_to_add pushBack [format["%1rhs_vdv_flora_aa", _sid], 1, 40];
 	};
 	units_infantry append inf_to_add;
 	if(CTI_FACTORY_LEVEL_PRESET >= _level) then {infantry_auto append inf_to_add;};

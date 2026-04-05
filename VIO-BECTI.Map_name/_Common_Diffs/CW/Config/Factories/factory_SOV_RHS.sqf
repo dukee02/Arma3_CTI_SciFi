@@ -112,9 +112,7 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_des_sergeant", _sid];
 		_c pushBack format["%1rhs_vdv_des_efreitor", _sid];
 		_c pushBack format["%1rhs_vdv_des_junior_sergeant", _sid];
-		_c pushBack format["%1rhs_vdv_des_aa", _sid];
 		_c pushBack format["%1rhs_vdv_des_arifleman", _sid];
-		_c pushBack format["%1rhs_vdv_des_LAT", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION == 3 || CTI_CAMO_ACTIVATION == 7) then {		//jungle camo active
 		_c pushBack format["%1rhs_vdv_crew_commander", _sid];
@@ -123,10 +121,8 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_sergeant", _sid];
 		_c pushBack format["%1rhs_vdv_efreitor", _sid];
 		_c pushBack format["%1rhs_vdv_junior_sergeant", _sid];
-		_c pushBack format["%1rhs_vdv_aa", _sid];
 		_c pushBack format["%1rhs_vdv_arifleman", _sid];
 		_c pushBack format["%1rhs_vdv_rifleman_alt", _sid];
-		_c pushBack format["%1rhs_vdv_LAT", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		_c pushBack format["%1rhs_vdv_mflora_crew_commander", _sid];
@@ -135,8 +131,6 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_mflora_sergeant", _sid];
 		_c pushBack format["%1rhs_vdv_mflora_efreitor", _sid];
 		_c pushBack format["%1rhs_vdv_mflora_junior_sergeant", _sid];
-		_c pushBack format["%1rhs_vdv_mflora_aa", _sid];
-		_c pushBack format["%1rhs_vdv_mflora_LAT", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION < 2 || CTI_CAMO_ACTIVATION > 4) then {		//main camo active
 		_c pushBack format["%1rhs_vdv_flora_crew_commander", _sid];
@@ -145,8 +139,6 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_flora_sergeant", _sid];
 		_c pushBack format["%1rhs_vdv_flora_efreitor", _sid];
 		_c pushBack format["%1rhs_vdv_flora_junior_sergeant", _sid];
-		_c pushBack format["%1rhs_vdv_flora_aa", _sid];
-		_c pushBack format["%1rhs_vdv_flora_LAT", _sid];
 	};
 	_c pushBack format["%1rhs_pilot_combat_heli", _sid];
 	_c pushBack format["%1rhs_pilot_tan", _sid];
@@ -163,6 +155,8 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_des_officer", _sid];
 		_c pushBack format["%1rhs_vdv_des_grenadier", _sid];
 		_c pushBack format["%1rhs_vdv_des_RShG2", _sid];
+		_c pushBack format["%1rhs_vdv_des_LAT", _sid];
+		_c pushBack format["%1rhs_vdv_des_aa", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION == 3 || CTI_CAMO_ACTIVATION == 7) then {		//jungle camo active
 		_c pushBack format["%1rhs_vdv_marksman_asval", _sid];
@@ -171,18 +165,24 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		_c pushBack format["%1rhs_vdv_grenadier", _sid];
 		_c pushBack format["%1rhs_vdv_grenadier_alt", _sid];
 		_c pushBack format["%1rhs_vdv_RShG2", _sid];
+		_c pushBack format["%1rhs_vdv_LAT", _sid];
+		_c pushBack format["%1rhs_vdv_aa", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		_c pushBack format["%1rhs_vdv_mflora_marksman", _sid];
 		_c pushBack format["%1rhs_vdv_mflora_officer", _sid];
 		_c pushBack format["%1rhs_vdv_mflora_grenadier", _sid];
 		_c pushBack format["%1rhs_vdv_mflora_RShG2", _sid];
+		_c pushBack format["%1rhs_vdv_mflora_LAT", _sid];
+		_c pushBack format["%1rhs_vdv_mflora_aa", _sid];
 	};
 	if(CTI_CAMO_ACTIVATION < 2 || CTI_CAMO_ACTIVATION > 4) then {		//main camo active
 		_c pushBack format["%1rhs_vdv_flora_marksman", _sid];
 		_c pushBack format["%1rhs_vdv_flora_officer", _sid];
 		_c pushBack format["%1rhs_vdv_flora_grenadier", _sid];
 		_c pushBack format["%1rhs_vdv_flora_RShG2", _sid];
+		_c pushBack format["%1rhs_vdv_flora_LAT", _sid];
+		_c pushBack format["%1rhs_vdv_flora_aa", _sid];
 	};
 };
 if(CTI_CAMO_ACTIVATION == 2 || CTI_CAMO_ACTIVATION == 7) then {		//desert camo active

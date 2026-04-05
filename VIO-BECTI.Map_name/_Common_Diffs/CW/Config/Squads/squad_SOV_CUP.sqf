@@ -48,8 +48,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Engineer_Ratnik_Winter", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Exp_Ratnik_Winter", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_Ratnik_Winter", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Winter", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_Ratnik_Winter", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Winter", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Winter", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_Winter", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_Winter", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_Winter", _sid], 1, 20];
@@ -63,8 +64,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Engineer_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Exp_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_Ratnik_Desert", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_Ratnik_Desert", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Desert", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Desert", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_Desert", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_Desert", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_Desert", _sid], 1, 20];
@@ -80,7 +82,8 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Saiga_M_EMR_V2", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_M_EMR_V2", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_M_EMR_V2", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_M_EMR_V2", _sid], 1, 20];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		inf_to_add = [[format["%1CUP_O_RU_Soldier_Ratnik_Autumn", _sid], 1, 60]];	
@@ -90,8 +93,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Engineer_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Exp_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_Ratnik_Autumn", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_Ratnik_Autumn", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Autumn", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Autumn", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_Autumn", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_Autumn", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_Autumn", _sid], 1, 20];
@@ -108,8 +112,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Engineer_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Exp_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_Ratnik_BeigeDigital", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_BeigeDigital", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_BeigeDigital", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_BeigeDigital", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_BeigeDigital", _sid], 1, 20];
@@ -123,12 +128,13 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Engineer_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Exp_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_GL_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Repair_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Recon_LAT_Ratnik_Summer", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Summer", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Summer", _sid], 1, 20];
+		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Exp_Ratnik_Summer", _sid], 1, 20];
+		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Medic_Ratnik_Summer", _sid], 1, 20];
+		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Ratnik_Summer", _sid], 1, 20];
+		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_LAT_Ratnik_Summer", _sid], 1, 20];
 	};
 	units_infantry append inf_to_add;
 	infantry_auto append inf_to_add;
@@ -153,19 +159,17 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_Ratnik_Winter", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_Ratnik_Winter", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_Ratnik_Winter", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Winter", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Winter", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Winter", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Marksman_Ratnik_Winter", _sid], 1, 20];
 	};
 	if(CTI_CAMO_ACTIVATION == 2 || CTI_CAMO_ACTIVATION == 7) then {		//desert camo active
 		inf_to_add = [[format["%1CUP_O_RU_Soldier_AAR_Ratnik_Desert", _sid], 1, 20]];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AR_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_MG_Ratnik_Desert", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Desert", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_Ratnik_Desert", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_Ratnik_Desert", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Desert", _sid], 1, 20];
 		//inf_to_add pushBack [format["%1CUP_O_RU_Recon_Marksman_Ratnik_Desert", _sid], 1, 20];
 	};
 	if(CTI_CAMO_ACTIVATION == 3 || CTI_CAMO_ACTIVATION == 7) then {		//jungle camo active
@@ -175,10 +179,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_MG_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_M_EMR_V2", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_M_EMR_V2", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Officer_M_EMR_V2", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_M_EMR_V2", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_M_EMR_V2", _sid], 1, 20];
 	};
 	if(CTI_CAMO_ACTIVATION == 4 || CTI_CAMO_ACTIVATION == 7) then {		//urban camo active
 		inf_to_add = [[format["%1CUP_O_RU_Soldier_AAR_Ratnik_Autumn", _sid], 1, 20]];
@@ -186,10 +189,9 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_MG_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Marksman_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_Ratnik_Autumn", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Autumn", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_Ratnik_Autumn", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_Ratnik_Autumn", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Autumn", _sid], 1, 20];
 	};
 	//if(CTI_CAMO_ACTIVATION == 5 || CTI_CAMO_ACTIVATION == 7) then {		//maritim camo active
 	//	_c pushBack format["%1", _sid];
@@ -198,23 +200,21 @@ if(CTI_ECONOMY_LEVEL_INFANTRY >= _level) then {
 		inf_to_add = [[format["%1CUP_O_RU_Soldier_AAR_Ratnik_BeigeDigital", _sid], 1, 20]];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_MG_Ratnik_BeigeDigital", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_BeigeDigital", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Marksman_Ratnik_BeigeDigital", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital", _sid], 1, 20];
 	};
 	if(CTI_CAMO_ACTIVATION < 1 || CTI_CAMO_ACTIVATION == 5 || CTI_CAMO_ACTIVATION > 6) then {		//main camo active
 		inf_to_add = [[format["%1CUP_O_RU_Soldier_AAR_Ratnik_Summer", _sid], 1, 20]];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AR_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_MG_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AAT_Ratnik_Summer", _sid], 1, 20];
-		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_AT_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_Marksman_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_SL_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Survivor_Ratnik_Summer", _sid], 1, 20];
 		inf_to_add pushBack [format["%1CUP_O_RU_Recon_Marksman_Ratnik_Summer", _sid], 1, 20];
+		inf_to_add pushBack [format["%1CUP_O_RU_Soldier_LAT_Ratnik_Summer", _sid], 1, 20];
 	};
 	//inf_to_add pushBack [format["%1CUP_O_RU_Pilot_M_EMR", _sid], 1, 20];
 	
